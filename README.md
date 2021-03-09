@@ -51,19 +51,6 @@ Los siguientes ambientes comparten el mismo diseño de infraestructura que se ve
 El mismo aloja la organizacion bimbo-sales-school, dentro de esta se encuentran los repositorios de los servicios y de la infraestructura.
 Si uno se ubica dentro de un servicio y sigue la ruta "servicio/.terraform/environments/production/main.tf" puede identificar que recursos de infraestructura son utilizados para dicho servicio.
 
-#### Servicios en ECS "webprojects" Fargate
-
-- **bimbo-sales-school-admin-prod-api-srv**
-  - **Used for:** Es el SPA que sirve la aplicación, el mismo enruta las peticiones a traves API-Gateway quien se comunica con este servicio.
-  - **Repo:** https://git.nubity.com/bimbo-sales-school/spa
-  - **Technologies:** ReactJS 
-- **bimbo-sales-school-admin-prod-srv**
-  - **Used for:** Es el CMS utilizado para administrar el contenido que se muestra en la aplicación.
-  - **Repo:** https://git.nubity.com/bimbo-sales-school/cms
-  - **Technologies:** PHP(Sonata Framework)
-
-
-
 #### Cargas de trabajo
 
 - **Backend**
